@@ -9,6 +9,7 @@ public class inClassActivity1 {
         String phrase = scan.nextLine();
         System.out.print("What character number do you want: ");
         int chaNum = scan.nextInt();
+        scan.nextLine();
         System.out.println("Character " + chaNum + " is " + phrase.substring(chaNum, chaNum + 1));
         System.out.println("Please enter another phrase: ");
         String phrase2 = scan.nextLine();
